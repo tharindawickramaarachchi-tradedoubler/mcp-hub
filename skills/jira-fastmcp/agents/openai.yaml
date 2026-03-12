@@ -1,7 +1,0 @@
-interface:
-  display_name: "Jira FastMCP"
-  short_description: "Operate the local Jira FastMCP server."
-  default_prompt: "Use $jira-fastmcp to work with the local Jira FastMCP server for issue search, retrieval, creation, commenting, and transitions."
-
-policy:
-  allow_implicit_invocation: true
