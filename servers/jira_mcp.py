@@ -15,6 +15,12 @@ JIRA_SITE = os.environ["JIRA_SITE"].rstrip("/")
 JIRA_USER = os.environ["JIRA_USER"]
 JIRA_TOKEN = os.environ["JIRA_TOKEN"]
 
+# Environment configuration
+JIRA_SITE = os.environ["JIRA_SITE"].rstrip("/")
+JIRA_USER = os.environ["JIRA_USER"]
+JIRA_TOKEN = os.environ["JIRA_TOKEN"]
+
+
 # Single shared HTTP client; FastMCP is single-process
 session = httpx.Client(
     base_url=f"{JIRA_SITE}/rest/api/3",
