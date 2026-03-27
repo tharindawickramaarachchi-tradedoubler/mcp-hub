@@ -79,7 +79,6 @@ try:
     print("\n" + "=" * 60)
     print("✓ All connection tests passed!")
     print("=" * 60)
-    print("\nYou can now run the MCP server with:")
     print("  fastmcp run servers/jira_mcp.py")
     
 except httpx.HTTPStatusError as e:

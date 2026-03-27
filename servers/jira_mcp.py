@@ -172,7 +172,8 @@ if __name__ == "__main__":
         test_run()
     else:
         logger.info("Starting MCP server...")
-        mcp.run()
+        #mcp.run() # STDIO (Standard Input/Output) transport
+        mcp.run(transport="http", host="0.0.0.0", port=8005) # HTTP transport
 
 
 
